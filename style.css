@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(166, 161, 161);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light {
+    background-color: black;
+    padding: 30px;
+    border-radius: 150px;
+    margin-top: 150px; ;
+}
