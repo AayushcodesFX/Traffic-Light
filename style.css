@@ -1,17 +1,51 @@
 body {
-    background-color: rgb(166, 161, 161);
+    background-color: rgb(88, 85, 85);
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
-.light {
+.border {
     background-color: black;
     padding: 30px;
     border-radius: 150px;
-    margin-top: 150px; ;
+    margin-top: 150px;
+}
+
+.inner-section {
+    width: 125px;
+    margin-left: auto;
+    height: 395px;
+    background-color: rgb(101, 92, 92);
+    border-radius: 160px;
+    margin: 30px;
 }
 
 .green {
+    background-color: rgb(38, 233, 113);
+    width: 15px;
+    height: 15px;
+    padding: 50px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
 
+.yellow {
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    padding: 50px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 25px;
+}   
+
+.red {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    padding: 50px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 25px;
 }
